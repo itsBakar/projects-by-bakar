@@ -22,6 +22,7 @@ export const getProjects = async (params: GetProjectsParams) => {
         title,
         _id,
         githubLink,
+        demoLink,
         "image": poster.asset->url,
         slug,
         category

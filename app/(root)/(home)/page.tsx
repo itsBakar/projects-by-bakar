@@ -43,6 +43,7 @@ const page = async ({ searchParams }: Props) => {
                   id={project._id}
                   image={project.image}
                   githubLink={project.githubLink}
+                  demoLink={project.demoLink}
                 />
               ))
             ) : (

@@ -23,6 +23,11 @@ const schema = {
       validation: (Rule: any) => Rule.required(),
     },
     {
+      name: "demoLink",
+      title: "Demo Link",
+      type: "url",
+    },
+    {
       name: "poster",
       title: "Poster",
       type: "image",
