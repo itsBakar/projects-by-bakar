@@ -7,7 +7,10 @@ const Navbar = () => {
       <div className="flex-between mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <h1 className="text-xl">
-            Projects <span className="text-xs">by Bakar</span>
+            <span className="text-gradient blue-purple !font-bold">
+              Projects
+            </span>
+            <span className="text-xs text-white"> by Bakar</span>
           </h1>
         </Link>
         <div className="block md:hidden">
