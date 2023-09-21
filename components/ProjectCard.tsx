@@ -11,7 +11,6 @@ interface Props {
 }
 
 import React from "react";
-import { Url } from "next/dist/shared/lib/router/router";
 
 const ProjectCard = ({ id, title, image, githubLink, demoLink }: Props) => {
   return (

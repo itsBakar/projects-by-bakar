@@ -10,38 +10,14 @@ const Navbar = () => {
             <span className="text-gradient blue-purple !font-bold">
               Projects
             </span>
-            <span className="text-xs text-white"> by Bakar</span>
+            <span className="text-xs text-white"> by Developer's Den</span>
           </h1>
         </Link>
-        <div className="block md:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              fillRule="evenodd"
-              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
-          <li className="body-text text-gradient blue-purple !font-bold">
-            <Link href="https://github.com/itsBakar" target="_blank">
-              Github
-            </Link>
-          </li>
-          <li className="body-text text-gradient blue-purple !font-bold">
-            <Link
-              href="https://www.linkedin.com/in/developerssden/"
-              target="_blank"
-            >
-              LinkedIn
-            </Link>
-          </li>
-        </ul>
+        <Link href={"/studio"}>
+          <h1 className="body-text text-gradient blue-purple !font-bold">
+            Admin
+          </h1>
+        </Link>
       </div>
     </nav>
   );
