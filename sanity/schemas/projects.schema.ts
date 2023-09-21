@@ -23,17 +23,6 @@ const schema = {
       validation: (Rule: any) => Rule.required(),
     },
     {
-      name: "liveDemoLink",
-      title: "Live Demo",
-      type: "url",
-    },
-    {
-      name: "views",
-      title: "Views",
-      type: "number",
-      initialValue: 0,
-    },
-    {
       name: "poster",
       title: "Poster",
       type: "image",
@@ -48,7 +37,7 @@ const schema = {
       type: "string",
       validation: (Rule: any) => Rule.required(),
       options: {
-        list: ["Frontend", "Backend", "Fullstack"],
+        list: ["frontend", "backend", "fullstack", "other"],
       },
     },
   ],
